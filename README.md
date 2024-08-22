@@ -65,3 +65,41 @@ El repositorio central de Maven es un repositorio público que aloja bibliotecas
 - **Proveer dependencias**: Permitir que los proyectos Maven descarguen librerías y otras dependencias necesarias sin tener que almacenarlas localmente.
 - **Facilitar la compartición**: Hacer que los artefactos generados y compartidos por diferentes proyectos estén disponibles para toda la comunidad.
 
+
+
+## Evaluación de las Fábricas
+
+### Fábrica Realizada
+- **Descripción**: Se creó una fábrica simple.
+- **Ventajas**: Eficiente y concisa, con poco código.
+
+### ¿Cuál es Mejor?
+- **Respuesta**: La mejor opción depende del contexto y de la situación específica.
+  - **En el laboratorio**: La fábrica simple es más adecuada debido a su eficiencia y al menor volumen de código.
+  - **En otros contextos**: Puede ser necesario considerar otras fábricas según los requisitos y complejidades del entorno.
+
+No se puede determinar una fábrica como la mejor de manera absoluta sin considerar el contexto en el que se utilizará.
+
+
+## ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+
+### Sin Parámetros
+- **Descripción**: Si se ejecuta, pero no crea nada debido a la falta de parámetros.
+- **Resultado**: No se ejecuta correctamente ya que no se proporciona información suficiente para realizar la acción deseada.
+
+### Parámetro: `qwerty`
+- **Descripción**: La ejecución con el parámetro `qwerty` no se lleva a cabo.
+- **Razón**: La clase especificada no está inscrita o no existe en el contexto actual.
+- **Resultado**: No se ejecuta correctamente.
+
+### Parámetro: `pentagon`
+- **Descripción**: La ejecución con el parámetro `pentagon` tampoco se lleva a cabo.
+- **Razón**: El nombre de la clase comienza con una letra minúscula, mientras que la convención requiere que comience con una letra mayúscula.
+- **Resultado**: No se ejecuta correctamente.
+
+### Parámetro: `Hexagon`
+- **Descripción**: La ejecución con el parámetro `Hexagon` se realiza con éxito.
+- **Razón**: El nombre de la clase es correcto y sigue la convención de nomenclatura requerida, comenzando con una letra mayúscula.
+- **Resultado**: Se ejecuta correctamente.
+
+
