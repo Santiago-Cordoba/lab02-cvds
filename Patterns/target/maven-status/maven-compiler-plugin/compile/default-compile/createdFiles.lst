@@ -1,0 +1,5 @@
+edu\eci\cvds\patterns\shapes\shape.class
+edu\eci\cvds\patterns\shapes\concrete\Quadrilateral.class
+edu\eci\cvds\patterns\shapes\concrete\Triangle.class
+edu\eci\cvds\patterns\shapes\RegularShapeType.class
+edu\eci\cvds\patterns\shapes\concrete\Hexagon.class
